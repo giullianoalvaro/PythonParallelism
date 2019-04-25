@@ -20,4 +20,3 @@ if __name__ == "__main__":
     writer = png.Writer(w, h, metadata.size)
     writer.write_array(output, pixels)
     output.close()
-    
